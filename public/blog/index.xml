@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Minh VU</title>
+    <link>http://minh84.github.io/blog/</link>
+    <description>Recent content in Blogs on Minh VU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;2017 Minh VU</copyright>
+    <lastBuildDate>Thu, 18 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://minh84.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linear Regression part 1</title>
+      <link>http://minh84.github.io/blog/machine_learning/supervised/linear_regression_part01/</link>
+      <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://minh84.github.io/blog/machine_learning/supervised/linear_regression_part01/</guid>
+      <description>In this notebook we will look at linear regression problem. Recall linear regression it to find $\theta$ such that $$ h(x,\theta) = \theta_0 + \theta_1x_1+\ldots+\theta_Dx_D $$ is a good predictor for training set $(x^{(i)}, y^{(i)})_{i=1}^m$ i.e we want to find $\theta$ that minimize $$ J(\theta) = \frac{1}{2}\sum_{i=1}^m \left(h(x^{(i)}, \theta)- y^{(i)}\right)^2 $$ where $J(\theta)$ is also call the  least-square  loss function. Probabilistic interpretation: Maximum-likelihood ¶    In this part, we try to understand why we use the linear representation with the  least-square  error.</description>
+    </item>
+    
+    <item>
+      <title>Linear Regression part 2</title>
+      <link>http://minh84.github.io/blog/machine_learning/supervised/linear_regression_part02/</link>
+      <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://minh84.github.io/blog/machine_learning/supervised/linear_regression_part02/</guid>
+      <description>In this notebook, we continue to look at linear regression problem $$ \mathrm{arg}\min_{\theta}J(\theta) = \frac{1}{2}\sum_{i=1}^m \left(h(x^{(i)}, \theta)- y^{(i)}\right)^2 $$ where $$ h(x,\theta) = \theta_0 + \theta_1x_1+\ldots+\theta_Dx_D $$ The normal equations ¶    We define the  design matrix  $\textbf{X}$ to be $m\times (D+1)$ matrix that contains training input values in its rows i.e $$ \textbf{X} = \left(\begin{array}{cc} 1 &amp;amp; \left(x^{(1)}\right)^T\\ \vdots\\ 1 &amp;amp; \left(x^{(m)}\right)^T\\ \end{array}\right) $$ Also $\textbf{y}$ be the $m$-dimensional vector that contains training target values.</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>http://minh84.github.io/blog/machine_learning/</link>
+      <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://minh84.github.io/blog/machine_learning/</guid>
+      <description>TOC ¶     Introduction    Supervised learning    Linear regression      Unsupervised learning    Restricted Boltzmann Machine      Introduction ¶    Machine learning (from wikipedia  ) is the subfield of computer science that, according to Arthur Samuel in 1959, gives &#34;computers the ability to learn without being explicitly programmed.&#34; Here learning means recognizing and understanding the input data then can make predictions on data.</description>
+    </item>
+    
+    <item>
+      <title>Restricted Boltzmann Machine</title>
+      <link>http://minh84.github.io/blog/machine_learning/unsupervised/rbm/</link>
+      <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://minh84.github.io/blog/machine_learning/unsupervised/rbm/</guid>
+      <description>A RBM  is a generative stochastic artificial neural network that can learn a probability distribution over its set of inputs.  A standard RBM has following diagram   where we denote   $v\in\mathbb{R}^D$ is visible units   $h\in\mathbb{R}^H$ is hidden units    And $v,h$ takes binary value (0,1), then it defines an energy function (similar as Hopfield network) $$ E(v,h) = -a^Tv -b^Th - v^TWh $$ which allows us to model the joint-distribution $(v,h)$ in term of the energy function i.</description>
+    </item>
+    
+  </channel>
+</rss>
