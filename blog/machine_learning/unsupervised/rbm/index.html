@@ -299,8 +299,8 @@ This is actually based on Markov Chain Monte Carlo (MCMC) and Gibbs sampling. Ho
      Constrative Divergence Learning
     </strong>
     where we can use a short cut
-    <img alt="rbm-cd-learning" src="./assets/rbm-cd-learning.png" style="width: 60%; height: 50%"/>
-    we denote 
+    <img alt="rbm-cd-learning" src="./assets/rbm-cd-learning.png" style="width: 60%; height: 50%">
+     we denote 
 $$
 CD_1 = \langle v_i,h_j\rangle^0 - \langle v_i,h_j\rangle^1
 $$
@@ -312,6 +312,7 @@ $$
 \Delta b_j &amp;= \epsilon\left(\langle h_j\rangle^0 - \langle h_i\rangle^1\right)
 \end{split}
 $$
+    </img>
    </p>
    <p>
     One can see that the learning doesn't use the correct gradient of the log-likelihood, as suggested by G. Hinton, we can use the following process
@@ -575,7 +576,8 @@ tiNF9pmtk47VVnXZ9lYZ5LLyb2nnuqv1cveN1o7wPwvsUHJ/+3xYR4iIZ/Pfa4Bb6bxLj6/uv0Jy
 ym/PAm5rYy9v0ymXbS93WXnavO467nL3EdHyH+Bwsj3+fwL+tR09lOlrZ+AP+c/SdvcGLCR7G/g6
 2b6RTwPbAHcBy4FFwIQO6u2HwKPAI2RBm9ym3vYle0v/CLA4/zm83euuoK+2rDef3muWKO/wM0uU
 w2+WKIffLFEOv1miHH6zRDn8Zoly+M0S9X9n3/JewkbQBgAAAABJRU5ErkJggg==
-"/>
+">
+     </img>
     </div>
    </div>
   </div>
@@ -605,7 +607,7 @@ w2+WKIffLFEOv1miHH6zRDn8Zoly+M0S9X9n3/JewkbQBgAAAABJRU5ErkJggg==
 
 <span class="n">epochs</span> <span class="o">=</span> <span class="mi">20</span>
 <span class="n">batch_size</span> <span class="o">=</span> <span class="mi">128</span>
-<span class="n">learning_rate</span> <span class="o">=</span> <span class="mf">1e-1</span>
+<span class="n">learning_rate</span> <span class="o">=</span> <span class="mi">1</span><span class="n">e</span><span class="o">-</span><span class="mi">1</span>
 <span class="n">rbm_model</span><span class="o">.</span><span class="n">train</span><span class="p">(</span><span class="n">train_X</span><span class="p">,</span> <span class="n">valid_X</span><span class="p">,</span> <span class="n">epochs</span><span class="p">,</span> <span class="n">batch_size</span><span class="p">,</span> <span class="n">learning_rate</span><span class="p">,</span> <span class="n">cd_steps</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">use_pcd</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
 </pre>
     </div>
@@ -816,7 +818,8 @@ llRP1XSXAXPT47nApTX2soG+wEgOo6Z1J0nAWcAdEXF6qVTrumvUV6ustzq19dVPgHTJ+ivAOODs
 iPhszS0BIGk3ir0zgPHA+XX2JmkRsD/FV9OsBOYDlwAXADMovsbpiIho+gn7Br3tT3EIFUAPcEzp
 HFYze9sP+C1wG7A+DT6Z4vxVbeuuoq85tMB6q1Pbh5qZWVm7H36amW3AoWZmWXGomVlWHGpmlhWH
 mpllxaFmZllxqJlZVv4Po+BLU9/jNp0AAAAASUVORK5CYII=
-"/>
+">
+     </img>
     </div>
    </div>
    <div class="output_area">
@@ -939,7 +942,8 @@ d9TYyy4GAqN0JjUtO0kCrgOejojFLaVal127vpqy3OrU1Z9+ApQfWf8lMA64PiL+e80tASBpLsXW
 GcDewDfq7E3SzcDJFKemWQtcCtwOLAEOoziN01kR0fED9m16O5liFyqAlcD5LcewOtnb24EfAk8C
 O8ubL6E4flXbskv0dTYNWG516vpQMzNr1e27n2Zmu3ComVlWHGpmlhWHmpllxaFmZllxqJlZVhxq
 ZpaV/w+i7vBiAUwnSQAAAABJRU5ErkJggg==
-"/>
+">
+     </img>
     </div>
    </div>
   </div>
@@ -1107,7 +1111,8 @@ l0qNLrtufbVluTWpp89+AqRT1n8LbA0sioj/1XBLAEjai2LrDGAb4KtN9ibpOuAQiq+mWQUsAG4G
 bgT2pPgap2MjovYD9l16O4RiFyqAIeDM0jGsOns7CPg28CiwIQ2eT3H8qrFlV9HXPFqw3JrU86Fm
 ZlbW67ufZmYbcaiZWVYcamaWFYeamWXFoWZmWXGomVlWHGpmlpX/AMKTIjodXt1oAAAAAElFTkSu
 QmCC
-"/>
+">
+     </img>
     </div>
    </div>
    <div class="output_area">
@@ -1222,7 +1227,8 @@ EXFZqdTRZdeqr6Yst07q6k8/AdJH1n8DjAeWRMRfdLglACTNo9g6g+JfEX6lk71Juh5YQHFpmrXA
 hcAtwI3AvhSXcToxImo/YN+itwUUu1ABrATOLB3DqrO3w4HvAo8AW9LgRRTHrzq27Cr6OpkGLLdO
 6vpQMzMr6/bdTzOzrTjUzCwrDjUzy4pDzcyy4lAzs6w41MwsKw41M8vK/wJDNRab2tukYQAAAABJ
 RU5ErkJggg==
-"/>
+">
+     </img>
     </div>
    </div>
   </div>
@@ -1273,7 +1279,7 @@ RU5ErkJggg==
      <pre><span></span><span class="n">epochs</span> <span class="o">=</span> <span class="mi">500</span>
 <span class="n">batch_size</span> <span class="o">=</span> <span class="mi">128</span>
 <span class="c1">##</span>
-<span class="n">rbm_model</span><span class="o">.</span><span class="n">train_classification</span><span class="p">(</span><span class="n">train_X</span><span class="p">,</span> <span class="n">train_y</span><span class="p">,</span> <span class="n">valid_X</span><span class="p">,</span> <span class="n">valid_y</span><span class="p">,</span> <span class="n">epochs</span><span class="p">,</span> <span class="n">batch_size</span><span class="p">,</span> <span class="n">learning_rate</span><span class="o">=</span><span class="mf">1e-1</span><span class="p">)</span>
+<span class="n">rbm_model</span><span class="o">.</span><span class="n">train_classification</span><span class="p">(</span><span class="n">train_X</span><span class="p">,</span> <span class="n">train_y</span><span class="p">,</span> <span class="n">valid_X</span><span class="p">,</span> <span class="n">valid_y</span><span class="p">,</span> <span class="n">epochs</span><span class="p">,</span> <span class="n">batch_size</span><span class="p">,</span> <span class="n">learning_rate</span><span class="o">=</span><span class="mi">1</span><span class="n">e</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
 </pre>
     </div>
    </div>

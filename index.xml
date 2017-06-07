@@ -345,7 +345,8 @@ RETaKBRERKSNQkFERNooFEREpI1CQeQkmdktKdfb32Zmz0Rdk0hP6eQ1kV4SXHvoaeAud/9D1PWI
 9ITWFER6zw+BpxUIksky8iqpIukmuIrrRJLXyhHJWNp8JHKSzOxskj1jvcvd90Vdj8jJ0OYjkZN3
 GzAUeCbY2Xxv1AWJ9JTWFEREpI3WFEREpI1CQURE2igURESkjUJBRETaKBRERKSNQkFERNooFERE
 pM3/B1y0ie08u8jKAAAAAElFTkSuQmCC
-&#34;/&gt;
+&#34;&gt;
+     &lt;/img&gt;
     &lt;/div&gt;
    &lt;/div&gt;
   &lt;/div&gt;
@@ -598,7 +599,8 @@ qcw2OEpx5YKZvQ14O3Ck1VKGVTkWtlZzd/dTZnYb8ChFa/n97n7IzPb23j9A0TPiWmANeI3i7J2N
 ktvg48A8cE+v5nrKM5pEqeQ2yFaZ7+/uh83sG8BTwGngPncf2mUuRSX3gU8Cnzezpyl6jNzu7tnM
 FGlm/whcBWwxs2PAXwNvgvpioUaoiohkSCNURUQypOAuIpIhBXcRkQwpuIuIZEjBXUQkQwruIiIZ
 UnAXEcmQgruISIb+HznS+F72mkIpAAAAAElFTkSuQmCC
-&#34;/&gt;
+&#34;&gt;
+     &lt;/img&gt;
     &lt;/div&gt;
    &lt;/div&gt;
   &lt;/div&gt;
@@ -663,7 +665,7 @@ UnAXEcmQgruISIb+HznS+F72mkIpAAAAAElFTkSuQmCC
 &lt;span class=&#34;c1&#34;&gt;# define some hyperparameters&lt;/span&gt;
 &lt;span class=&#34;n&#34;&gt;epochs&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;50&lt;/span&gt;
 &lt;span class=&#34;n&#34;&gt;batch_size&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;15&lt;/span&gt;
-&lt;span class=&#34;n&#34;&gt;learning_rate&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;5e-2&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;learning_rate&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;
 
 &lt;span class=&#34;c1&#34;&gt;# fit model with the data&lt;/span&gt;
 &lt;span class=&#34;n&#34;&gt;clf&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;fit&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;X_train&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;y_train&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;X_test&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;y_test&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
@@ -980,7 +982,8 @@ D/Be4HddKN8wMmOiYFQyW3Gvb/Q8AlwaLcOMiBwQrUobZxiwUVV3iMhBuNclepr9+TH+DJwXxS1G
 npuA+SLynKpeEKTfDxyDW+lWgX9T1dWRqCTRAPxKROpwFsxnO9dEwygOG5JqGIZhtGHuI8MwDKMN
 EwXDMAyjDRMFwzAMow0TBcMwDKMNEwXDMAyjDRMFwzAMow0TBcMwDKON/w9rzBMrd1Pa8AAAAABJ
 RU5ErkJggg==
-&#34;/&gt;
+&#34;&gt;
+     &lt;/img&gt;
     &lt;/div&gt;
    &lt;/div&gt;
   &lt;/div&gt;
@@ -1023,12 +1026,12 @@ $$
    &lt;div class=&#34;input_area&#34;&gt;
     &lt;div class=&#34; highlight hl-ipython3&#34;&gt;
      &lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;# create logistic regression model with regularization&lt;/span&gt;
-&lt;span class=&#34;n&#34;&gt;clf&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;glm&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;LogitReg&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;reg&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;5e-3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;clf&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;glm&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;LogitReg&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;reg&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 
 &lt;span class=&#34;c1&#34;&gt;# define some hyperparameters&lt;/span&gt;
 &lt;span class=&#34;n&#34;&gt;epochs&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;50&lt;/span&gt;
 &lt;span class=&#34;n&#34;&gt;batch_size&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;15&lt;/span&gt;
-&lt;span class=&#34;n&#34;&gt;learning_rate&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;5e-2&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;learning_rate&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;
 
 &lt;span class=&#34;c1&#34;&gt;# fit model with the data&lt;/span&gt;
 &lt;span class=&#34;n&#34;&gt;clf&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;fit&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;X_train&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;y_train&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;X_test&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;y_test&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
@@ -1389,7 +1392,8 @@ Y/wdOCZqtxiHW9Yz42yW0doAI1V1DvAVXLWTYZQca1MwypnngI6oGuhW4Bpc1c0zUWPvMpKXOL0f
 OCOq91+Eq0Ly3Ag8JyLPqOoJQfifgD1wM90q8E1VfTcSlSRGAPeJSB3Og/lqz7JoGIVhXVINwzCM
 Lqz6yDAMw+jCRMEwDMPowkTBMAzD6MJEwTAMw+jCRMEwDMPowkTBMAzD6MJEwTAMw+ji/wNzzYMY
 VBmJ/AAAAABJRU5ErkJggg==
-&#34;/&gt;
+&#34;&gt;
+     &lt;/img&gt;
     &lt;/div&gt;
    &lt;/div&gt;
   &lt;/div&gt;
@@ -1657,7 +1661,8 @@ YoxJBc4Ecl2O005W9nk9sV8qGGOOBBoBa12N0l2O5i/fttxFZK8xJhOYQaynfZyILDfG9C58fjSx
 kROdgNXAdmJH/sCyuM+DgDRgZGFLdq8EeNIli/scKlb2WURyjTHvA0uAAuBZESl1SF0QWHyfHwbG
 G2OWEhtBcq+IBHa2SGPMZOBcoJYxZiPwAFAF3MlfeoaqUkqFkJ/LMkoppSpIk7tSSoWQJnellAoh
 Te5KKRVCmtyVUiqENLkrpVQIaXJXSqkQ0uSulFIh9P+fsAwkR4pmtAAAAABJRU5ErkJggg==
-&#34;/&gt;
+&#34;&gt;
+     &lt;/img&gt;
     &lt;/div&gt;
    &lt;/div&gt;
   &lt;/div&gt;
@@ -2370,7 +2375,8 @@ nntEbJf058B1JKPs/xIRGySdnm6/mKRy4lhgI7CV5FO/bxU8548BLwM+k/Zkt0cfz6ZX8JwHTpHz
 joh7JX0DWA/sBC6JiMySun5Q8G/9N8DnJN1FUkHylxHRt1MBS/oScCSwr6SHgTOBUWh/DPP0A2Zm
 A6iX0zJmZtYiB3czswHk4G5mNoAc3M3MBpCDu5nZAHJwNzMbQA7uZmYD6P8DovSw9tzx8TUAAAAA
 SUVORK5CYII=
-&#34;/&gt;
+&#34;&gt;
+     &lt;/img&gt;
     &lt;/div&gt;
    &lt;/div&gt;
   &lt;/div&gt;
@@ -2649,7 +2655,8 @@ raGqhcArwCQP1FYAFLjvmABewgnyRNdV72xglarucy8nuq4zgK2qWqSqIeCvwDc6ui6vBLcXf5D4
 Cs5brrXAavd0TqJrA0YDn7h1rQdud69P+H0Wtb3pHP5wMuF14ewxtcY9fVr/HPdIbWOBFe7j+SrQ
 1SN1pQMHgOyo67xQ11ycgcp64M84e4x0aF32lXdjjOlkvNIqMcYY00IW3MYY08lYcBtjTCdjwW2M
 MZ2MBbcxxnQyFtzGGNPJWHAbY0wn8/8B/v1KHGwKDiAAAAAASUVORK5CYII=
-&#34;/&gt;
+&#34;&gt;
+     &lt;/img&gt;
     &lt;/div&gt;
    &lt;/div&gt;
   &lt;/div&gt;
@@ -2928,7 +2935,8 @@ WHGNX0k7clfVYhHpBUzHOdP+sqquEJFb3e0jcWZOdAbWAAU4n/wpK8Jjfgg4FBjhjmSLNYUr6kV4
 zGklkmNW1VUi8j6wDNgLvKiqQafUpYII/86PAq+IyJc4M0j+paopWwpYRN4E2gO1RGQD8DCQAYmJ
 X1Z+wBhj0lAyp2WMMcaUkgV3Y4xJQxbcjTEmDVlwN8aYNGTB3Rhj0pAFd2OMSUMW3I0xJg39P4nP
 BWHD2o9IAAAAAElFTkSuQmCC
-&#34;/&gt;
+&#34;&gt;
+     &lt;/img&gt;
     &lt;/div&gt;
    &lt;/div&gt;
   &lt;/div&gt;
@@ -3522,7 +3530,8 @@ XWRmVv/4WtXex//d47palcWYNZXlmNWf9+uSXnD3r8bcLdlxy+IocYtHkl9Sred0oP7n7+q3r5b0
 ku6UdGf9Y5P0tfrXD6nBCqiU6/pcfXwOqraw4INp1FV/7r+XdFzSbP177U9yMmbN6spyzD6k2rGj
 Z+fl2c29HDd2ngJAYHLbigEAdIZgB4DAEOwAEBiCHQACQ7ADQGAIdgAIDMEOAIEh2AEgMP8P78I7
 p3GWvmAAAAAASUVORK5CYII=
-&#34;/&gt;
+&#34;&gt;
+     &lt;/img&gt;
     &lt;/div&gt;
    &lt;/div&gt;
   &lt;/div&gt;
@@ -3702,7 +3711,8 @@ XPXoxP6qqRP7K13f3wH3R8Snq8zW2v3Vzt7i6TyAh0hqUfekjy+m7y8Evls234Ukvc+/IClJtDqu
 3yWpiz0P7ADWT46LZHTDpvRxX17i6tD+ehHwA+BB4FbguE7ur0rbD7wfeH/6XMDn0+mbmWLkU5vj
 +mC6bzaRDCY4p01x/SOwHRhP/77em5P9VSuutu8v4LUkfUX3luWtC9u5v3xJATOzgsl9KcbMzBrj
 xG5mVjBO7GZmBePEbmZWME7sZmYF48RuZlYwTuxmZgXz/wEY4igraXqLkAAAAABJRU5ErkJggg==
-&#34;/&gt;
+&#34;&gt;
+     &lt;/img&gt;
     &lt;/div&gt;
    &lt;/div&gt;
    &lt;div class=&#34;output_area&#34;&gt;
@@ -3894,7 +3904,8 @@ d87dnmKzwp6vYrYWt+YBfIyvi3o7eNwXLO8CPBu33RB86/Mn+CqJQsf1E3y92CrgK2BiYlz43g0z
 g8fsUokrpPO1NfAi8BEwGdgqzPOV7P0DPwN+Fjw34J5g/Sxa6PlU5LguDM7NTHxngv5Fiusx4Aug
 Mfh+nVMi5ytdXEU/X8AB+Laid+Ly1pBini9NKSAiEjElXxUjIiLZUWIXEYkYJXYRkYhRYhcRiRgl
 dhGRiFFiFxGJGCV2EZGI+f+/GkO66TtBKAAAAABJRU5ErkJggg==
-&#34;/&gt;
+&#34;&gt;
+     &lt;/img&gt;
     &lt;/div&gt;
    &lt;/div&gt;
    &lt;div class=&#34;output_area&#34;&gt;
@@ -4104,7 +4115,8 @@ xf6qVVT7KyjzPmCec+62JKuFt89y3UudrQewAN/O9V7wuDt4vw3wXMx6x+B7wj/GN2vkIrbj8e1u
 a4EvgYnxseFHXMwKHnNzEVsqcUWxz4AdgReBj4DJQIuo9lei7w6cC5wbPDfgzmD5bGoYhZXjuIYE
 +2UWfhDDITmK6z/AUqAq+Ns6K0/2V21xRbW/foTvi3o/Jncdk6t9pqkVRESKRL1t0hERkfQo4YuI
 FAklfBGRIqGELyJSJJTwRUSKhBK+iEiRUMIXESkS/x9/1AYiM5hmvgAAAABJRU5ErkJggg==
-&#34;/&gt;
+&#34;&gt;
+     &lt;/img&gt;
     &lt;/div&gt;
    &lt;/div&gt;
    &lt;div class=&#34;output_area&#34;&gt;
@@ -4294,7 +4306,8 @@ dVFVSdmSNC4z62pmFjwfhP8fXpPluFIRxvFKKozjFWzvQWC+c+6uBItl93jlsrW4MRPwEb4ualYw
 /8B/A/8dPDfgT8H8OTTQ8ynHcV0eHJv38J0JjspRXI8By4Ftwffrkjw5XsniyvnxAo7GtxXNjspb
 w3N5vDSkgIhIkcn7qhgREUmPEruISJFRYhcRKTJK7CIiRUaJXUSkyCixi4gUGSV2EZEi8/8B77ri
 2Ob2HRoAAAAASUVORK5CYII=
-&#34;/&gt;
+&#34;&gt;
+     &lt;/img&gt;
     &lt;/div&gt;
    &lt;/div&gt;
    &lt;div class=&#34;output_area&#34;&gt;
@@ -4487,7 +4500,8 @@ LL4l/AN8tUYhYjsbX++2BfgMeCExNnyPiznBsKAQsaUTVxj7DNgDeBlYAkwHeoW1v5JtO/BD4IfB
 ewPuDabPo5leWAWO66fBfpmD78RwZIHiegxYBTQEv63vtZH91VJcYe2vb+LboubG5a6xhdpnurWC
 iEhEtNsqHRERyYwSvohIRCjhi4hEhBK+iEhEKOGLiESEEr6ISEQo4YuIRMT/B2Bu4Kpt1cjDAAAA
 AElFTkSuQmCC
-&#34;/&gt;
+&#34;&gt;
+     &lt;/img&gt;
     &lt;/div&gt;
    &lt;/div&gt;
    &lt;div class=&#34;output_area&#34;&gt;
@@ -4671,7 +4685,8 @@ FCO2TxLU3XYD64En2sdG0OJibvhYUIzYMokrin0GDAZmAouBp4BBUe2vVO8d+BzwuXDYgNvD6fPo
 pBVWkeP6Yrhf5hI0YjixSHHdB6wFmsPP1mU9ZH91FVdU++uDBNeiXk3KXacXa5+pawURkZgo2ZKO
 iIhkRwlfRCQmlPBFRGJCCV9EJCaU8EVEYkIJX0QkJpTwRURi4v8AqGw5o1Ly1KsAAAAASUVORK5C
 YII=
-&#34;/&gt;
+&#34;&gt;
+     &lt;/img&gt;
     &lt;/div&gt;
    &lt;/div&gt;
   &lt;/div&gt;
@@ -4921,7 +4936,8 @@ eL4D8GLUesfgzz5/ii9JZDuuE/F1se+BFcCE+nHhezfMDG6z8yWukI7XTsBrwCfAq8COYR6vWO8f
 uBi4OLhvwD3B8lk00PMpx3FdGhybmfjOBIfmKK5HgeVATfD3dX6eHK9EceX8eAGH4c8VfRiVt47J
 5fHSlAIiIkUm70sxIiKSGiV2EZEio8QuIlJklNhFRIqMEruISJFRYhcRKTJK7CIiReb/AXdcutDt
 e/jhAAAAAElFTkSuQmCC
-&#34;/&gt;
+&#34;&gt;
+     &lt;/img&gt;
     &lt;/div&gt;
    &lt;/div&gt;
    &lt;div class=&#34;output_area&#34;&gt;
@@ -5126,7 +5142,8 @@ O9+FGoClhLKyJ6JhWjR9EDAnablxhLvt/yEUhRQ6rs8Ryu3WA28Ac1PjItTmWBgNT5ZLXCXaXzsC
 /wCeA+YB/Uq5v9J9f+BU4NRo3ICro/mL6aSmV5HjOiPaNwsJlSIOKEJMNwPLgLbot3VSmeyrruIq
 +r6KtnsQ4V7WoqTj1rhi7jM1BSEiUqUqpghIRESyowQgIlKllABERKqUEoCISJVSAhARqVJKACIi
 VUoJQESkSv1/WmYbsoIsnaQAAAAASUVORK5CYII=
-&#34;/&gt;
+&#34;&gt;
+     &lt;/img&gt;
     &lt;/div&gt;
    &lt;/div&gt;
    &lt;div class=&#34;output_area&#34;&gt;
@@ -5317,7 +5334,8 @@ o8KSNS4z287MLLi/L/5/e1nIceUiiuOVVVTHK9jnX4H3nHN/yrBaeMes1K3UxboBc/H1XDOD223B
 996Bc4BzgvsG3BIsf5s2emGVOK7zguPyFr4Tw4EliuteYDHQHHy3flAmxytbXFEdr4PxbVGzknLX
 UaU6ZhpaQUQkJjpslY6IiORHCV9EJCaU8EVEYkIJX0QkJpTwRURiQglfRCQmlPBFRGLi/wNbgu67
 MChoqwAAAABJRU5ErkJggg==
-&#34;/&gt;
+&#34;&gt;
+     &lt;/img&gt;
     &lt;/div&gt;
    &lt;/div&gt;
    &lt;div class=&#34;output_area&#34;&gt;
@@ -5501,7 +5519,8 @@ i3A0eTmh9FDsuD5GqHvtANYBD3eMi9BbYUH0WFIuccW0vfYHZgPLgEeBIXFur0zrD3we+Hw0bMAP
 ovGL6KInU4njuizaNgsInQROLFFcdwFrgdbo7+viMtleueIq+fYCPkg4FrQwLW+dVcrtpVP/RUQS
 omxLLiIiUhgldBGRhFBCFxFJCCV0EZGEUEIXEUkIJXQRkYRQQhcRSYj/D54PLzVq6fzlAAAAAElF
 TkSuQmCC
-&#34;/&gt;
+&#34;&gt;
+     &lt;/img&gt;
     &lt;/div&gt;
    &lt;/div&gt;
   &lt;/div&gt;
@@ -5561,6 +5580,11 @@ TkSuQmCC
       &lt;li&gt;
        &lt;a href=&#34;#Linear-regression&#34;&gt;
         Linear regression
+       &lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+       &lt;a href=&#34;#Binary-classification&#34;&gt;
+        Binary classification
        &lt;/a&gt;
       &lt;/li&gt;
      &lt;/ul&gt;
@@ -5776,6 +5800,47 @@ $$
        &lt;/strong&gt;
       &lt;/li&gt;
      &lt;/ul&gt;
+    &lt;/li&gt;
+   &lt;/ul&gt;
+   &lt;h3 id=&#34;Binary-classification&#34;&gt;
+    Binary classification
+    &lt;a class=&#34;anchor-link&#34; href=&#34;#Binary-classification&#34;&gt;
+     ¶
+    &lt;/a&gt;
+   &lt;/h3&gt;
+   &lt;p&gt;
+    Let&#39;s consider now the binary classification problem e.g filter an email is spam or non-spam, predict the weather is rain or dry e.t.c.
+   &lt;/p&gt;
+   &lt;h4 id=&#34;Logistic-regression&#34;&gt;
+    Logistic regression
+    &lt;a class=&#34;anchor-link&#34; href=&#34;#Logistic-regression&#34;&gt;
+     ¶
+    &lt;/a&gt;
+   &lt;/h4&gt;
+   &lt;p&gt;
+    One simple and very popular approach to the binary classification is
+    &lt;strong&gt;
+     logistic regression
+    &lt;/strong&gt;
+    algorithm where we consider the
+    &lt;strong&gt;
+     hypothesis
+    &lt;/strong&gt;
+    $$
+h_\theta(x) = \frac{1}{1+e^{-\theta^Tx}}
+$$
+The notebook on
+    &lt;a href=&#34;./supervised/binary_classification_logistic/&#34;&gt;
+     logistic regression
+    &lt;/a&gt;
+    will cover the following topics
+   &lt;/p&gt;
+   &lt;ul&gt;
+    &lt;li&gt;
+     Logistic regression theory and implementation
+    &lt;/li&gt;
+    &lt;li&gt;
+     Generalized linear models
     &lt;/li&gt;
    &lt;/ul&gt;
    &lt;h2 id=&#34;Unsupervised-learning&#34;&gt;
@@ -5998,8 +6063,8 @@ This is actually based on Markov Chain Monte Carlo (MCMC) and Gibbs sampling. Ho
      Constrative Divergence Learning
     &lt;/strong&gt;
     where we can use a short cut
-    &lt;img alt=&#34;rbm-cd-learning&#34; src=&#34;./assets/rbm-cd-learning.png&#34; style=&#34;width: 60%; height: 50%&#34;/&gt;
-    we denote 
+    &lt;img alt=&#34;rbm-cd-learning&#34; src=&#34;./assets/rbm-cd-learning.png&#34; style=&#34;width: 60%; height: 50%&#34;&gt;
+     we denote 
 $$
 CD_1 = \langle v_i,h_j\rangle^0 - \langle v_i,h_j\rangle^1
 $$
@@ -6011,6 +6076,7 @@ $$
 \Delta b_j &amp;amp;= \epsilon\left(\langle h_j\rangle^0 - \langle h_i\rangle^1\right)
 \end{split}
 $$
+    &lt;/img&gt;
    &lt;/p&gt;
    &lt;p&gt;
     One can see that the learning doesn&#39;t use the correct gradient of the log-likelihood, as suggested by G. Hinton, we can use the following process
@@ -6274,7 +6340,8 @@ tiNF9pmtk47VVnXZ9lYZ5LLyb2nnuqv1cveN1o7wPwvsUHJ/+3xYR4iIZ/Pfa4Bb6bxLj6/uv0Jy
 ym/PAm5rYy9v0ymXbS93WXnavO467nL3EdHyH+Bwsj3+fwL+tR09lOlrZ+AP+c/SdvcGLCR7G/g6
 2b6RTwPbAHcBy4FFwIQO6u2HwKPAI2RBm9ym3vYle0v/CLA4/zm83euuoK+2rDef3muWKO/wM0uU
 w2+WKIffLFEOv1miHH6zRDn8Zoly+M0S9X9n3/JewkbQBgAAAABJRU5ErkJggg==
-&#34;/&gt;
+&#34;&gt;
+     &lt;/img&gt;
     &lt;/div&gt;
    &lt;/div&gt;
   &lt;/div&gt;
@@ -6304,7 +6371,7 @@ w2+WKIffLFEOv1miHH6zRDn8Zoly+M0S9X9n3/JewkbQBgAAAABJRU5ErkJggg==
 
 &lt;span class=&#34;n&#34;&gt;epochs&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;20&lt;/span&gt;
 &lt;span class=&#34;n&#34;&gt;batch_size&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;128&lt;/span&gt;
-&lt;span class=&#34;n&#34;&gt;learning_rate&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;1e-1&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;learning_rate&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;
 &lt;span class=&#34;n&#34;&gt;rbm_model&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;train&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;train_X&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;valid_X&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;epochs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;batch_size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;learning_rate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cd_steps&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;use_pcd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/pre&gt;
     &lt;/div&gt;
@@ -6515,7 +6582,8 @@ llRP1XSXAXPT47nApTX2soG+wEgOo6Z1J0nAWcAdEXF6qVTrumvUV6ustzq19dVPgHTJ+ivAOODs
 iPhszS0BIGk3ir0zgPHA+XX2JmkRsD/FV9OsBOYDlwAXADMovsbpiIho+gn7Br3tT3EIFUAPcEzp
 HFYze9sP+C1wG7A+DT6Z4vxVbeuuoq85tMB6q1Pbh5qZWVm7H36amW3AoWZmWXGomVlWHGpmlhWH
 mpllxaFmZllxqJlZVv4Po+BLU9/jNp0AAAAASUVORK5CYII=
-&#34;/&gt;
+&#34;&gt;
+     &lt;/img&gt;
     &lt;/div&gt;
    &lt;/div&gt;
    &lt;div class=&#34;output_area&#34;&gt;
@@ -6638,7 +6706,8 @@ d9TYyy4GAqN0JjUtO0kCrgOejojFLaVal127vpqy3OrU1Z9+ApQfWf8lMA64PiL+e80tASBpLsXW
 GcDewDfq7E3SzcDJFKemWQtcCtwOLAEOoziN01kR0fED9m16O5liFyqAlcD5LcewOtnb24EfAk8C
 O8ubL6E4flXbskv0dTYNWG516vpQMzNr1e27n2Zmu3ComVlWHGpmlhWHmpllxaFmZllxqJlZVhxq
 ZpaV/w+i7vBiAUwnSQAAAABJRU5ErkJggg==
-&#34;/&gt;
+&#34;&gt;
+     &lt;/img&gt;
     &lt;/div&gt;
    &lt;/div&gt;
   &lt;/div&gt;
@@ -6806,7 +6875,8 @@ l0qNLrtufbVluTWpp89+AqRT1n8LbA0sioj/1XBLAEjai2LrDGAb4KtN9ibpOuAQiq+mWQUsAG4G
 bgT2pPgap2MjovYD9l16O4RiFyqAIeDM0jGsOns7CPg28CiwIQ2eT3H8qrFlV9HXPFqw3JrU86Fm
 ZlbW67ufZmYbcaiZWVYcamaWFYeamWXFoWZmWXGomVlWHGpmlpX/AMKTIjodXt1oAAAAAElFTkSu
 QmCC
-&#34;/&gt;
+&#34;&gt;
+     &lt;/img&gt;
     &lt;/div&gt;
    &lt;/div&gt;
    &lt;div class=&#34;output_area&#34;&gt;
@@ -6921,7 +6991,8 @@ EXFZqdTRZdeqr6Yst07q6k8/AdJH1n8DjAeWRMRfdLglACTNo9g6g+JfEX6lk71Juh5YQHFpmrXA
 hcAtwI3AvhSXcToxImo/YN+itwUUu1ABrATOLB3DqrO3w4HvAo8AW9LgRRTHrzq27Cr6OpkGLLdO
 6vpQMzMr6/bdTzOzrTjUzCwrDjUzy4pDzcyy4lAzs6w41MwsKw41M8vK/wJDNRab2tukYQAAAABJ
 RU5ErkJggg==
-&#34;/&gt;
+&#34;&gt;
+     &lt;/img&gt;
     &lt;/div&gt;
    &lt;/div&gt;
   &lt;/div&gt;
@@ -6972,7 +7043,7 @@ RU5ErkJggg==
      &lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;epochs&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;500&lt;/span&gt;
 &lt;span class=&#34;n&#34;&gt;batch_size&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;128&lt;/span&gt;
 &lt;span class=&#34;c1&#34;&gt;##&lt;/span&gt;
-&lt;span class=&#34;n&#34;&gt;rbm_model&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;train_classification&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;train_X&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;train_y&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;valid_X&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;valid_y&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;epochs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;batch_size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;learning_rate&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;1e-1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;rbm_model&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;train_classification&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;train_X&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;train_y&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;valid_X&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;valid_y&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;epochs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;batch_size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;learning_rate&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/pre&gt;
     &lt;/div&gt;
    &lt;/div&gt;
